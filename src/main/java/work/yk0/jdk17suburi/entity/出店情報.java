@@ -4,7 +4,7 @@ package work.yk0.jdk17suburi.entity;
  * author ykonno
  * since 2021/10/03
  */
-public class 出店 {
+public class 出店情報 {
 
     String 出店名;
 

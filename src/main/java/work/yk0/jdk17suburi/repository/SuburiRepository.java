@@ -2,7 +2,7 @@ package work.yk0.jdk17suburi.repository;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
-import work.yk0.jdk17suburi.entity.出店;
+import work.yk0.jdk17suburi.entity.出店情報;
 
 /**
  * author ykonno
@@ -16,5 +16,5 @@ public interface SuburiRepository {
             From 出店情報
             Where 出店id = #{出店id}
             """)
-    public 出店 find出店(String 出店id);
+    public 出店情報 find出店(String 出店id);
 }
