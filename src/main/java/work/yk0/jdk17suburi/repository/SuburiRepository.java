@@ -11,6 +11,9 @@ import work.yk0.jdk17suburi.entity.出店情報;
 @Mapper
 public interface SuburiRepository {
 
+    // まだrecordはだめみたい https://github.com/mybatis/mybatis-3/issues/2195
+
+    // TODO テキストブロック
     @Select("""
             Select 出店id, 出店名, チケット価格
             From 出店情報
